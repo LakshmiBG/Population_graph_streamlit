@@ -1,5 +1,5 @@
 import pandas as pd
-url = "https://github.com/LakshmiBG/Population_graph_streamlit/blob/main/population.csv"
+url = "https://raw.githubusercontent.com/LakshmiBG/Population_graph_streamlit/refs/heads/main/population.csv"
 df = pd.read_csv(url)
 df = df.drop(columns =['Unnamed: 0'])
 df.head()
