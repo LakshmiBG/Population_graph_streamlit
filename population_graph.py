@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('population.csv')
+df = pd.read_csv('/population.csv')
 df = df.drop(columns =['Unnamed: 0'])
 df.head()
 
