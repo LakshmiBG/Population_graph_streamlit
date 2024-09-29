@@ -1,5 +1,6 @@
 import pandas as pd
-df = pd.read_csv('/population.csv')
+url = "https://github.com/LakshmiBG/Population_graph_streamlit/blob/main/population.csv"
+df = pd.read_csv(url)
 df = df.drop(columns =['Unnamed: 0'])
 df.head()
 
